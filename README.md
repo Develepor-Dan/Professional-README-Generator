@@ -26,11 +26,17 @@ When starting off on the terminal, making sure that you are in the right directo
 After typing 'npm start', you will be followed by a serious of questions which will help when generating your README.
 
 ## License
-
 This project is licensed under the [None](https://opensource.org/licenses/None) License - see the [LICENSE](LICENSE) file for details.
 
 ## Feature(s)
 Generate a README
+
+## Credits
+- [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4#examples)
+- [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
+## Deployment
+[GitHub Repository](https://github.com/Develepor-Dan/Professional-README-Generator)
 
 ## Questions
 For questions about contribution about the project, please contact [Daniel Zavala](mailto:zavaladaniel151@gmail.com).

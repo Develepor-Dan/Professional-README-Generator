@@ -66,6 +66,12 @@ ${data.features}
 ## Tests
 ${data.tests}
 
+## Credits
+[](${data.credits})
+
+## Deployment
+[GitHub Repository]()
+
 ## Questions
 For questions about contribution about the project, please contact [${data.author}](mailto:${data.email}).`;
 }
