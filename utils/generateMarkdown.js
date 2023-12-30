@@ -40,7 +40,7 @@ ${renderLicenseBadge(data.license)}
 - ${data.description}
 - ${data.motivation}
 - ${data.reason}
-- ${data.what_problem_is_solved}
+- ${data.problem}
 
 
 ## Table of Contents
@@ -60,11 +60,8 @@ ${data.usage}
 
 ${renderLicenseSection(data.license)}
 
-## Feature
-${data.feature}
-
-## Contributing
-${data.contributing}
+## Feature(s)
+${data.features}
 
 ## Tests
 ${data.tests}
