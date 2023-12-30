@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown'); // Assuming you have a separate file for generating markdown
+const generateMarkdown = require('./utils/generateMarkdown'); 
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -15,7 +15,21 @@ const questions = [
     name: 'description',
     message: 'Provide a brief description of your project:',
   },
-  // Add more questions for other information you want to collect
+  {
+    type: 'input',
+    name: 'motivation',
+    message: 'What was your motivation?',
+  },
+  {
+    type: 'input',
+    name: 'reason',
+    message: 'What was the reason for this project?',
+  },
+  {
+    type: 'input',
+    name: 'problem',
+    message: 'What problem does this project solve?',
+  },
   {
     type: 'list',
     name: 'license',
@@ -30,9 +44,19 @@ const questions = [
   {
     type: 'input',
     name: 'usage',
-    message: 'Provide usage information:',
+    message: 'Provide instructions and examples:',
   },
-  // Add more questions as needed
+  {
+    type: 'input',
+    name: 'credits',
+    message: 'List collaborators and/or third-party assets:',
+  },
+  {
+    type: 'input',
+    name: 'features',
+    message: 'If there are various features, list them here:',
+  },
+  // Input for 'how to contribute'
   {
     type: 'input',
     name: 'author',
@@ -50,7 +74,7 @@ function writeToFile(fileName, data) {
   fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('README file generated successfully!')
   );
-  console.log('README file being created');
+  console.log('README file is being created');
 }
 
 // TODO: Create a function to initialize app
