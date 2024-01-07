@@ -73,7 +73,7 @@ ${data.tests}
 [GitHub Repository]()
 
 ## Questions
-For questions about contribution about the project, please contact [${data.author}](mailto:${data.email}).`;
+For questions and contributions to the project, please contact [${data.author}](mailto:${data.email}).`;
 }
 console.log('Start by answering these questions to generate your README file');
 module.exports = generateMarkdown;
